@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(239, 230, 213);
+    /* background:url(../images/bg\ pattern.jpg); */
+}
+.bill{
+    border: 3px solid #007BFF;
+    height: 650px;
+    background-color: rgb(239, 230, 213);
+}
+.allproducts{
+    border: 3px solid #007BFF;
+    height: 650px;
+    background-color: rgb(239, 230, 213);
+}
+.tablet{
+    background-color: #F2F7FF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.allproducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 155px;
+    width: 115px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#tablet{
+    height: 560px;
+}
+tbody{
+    height: 350px;
+}

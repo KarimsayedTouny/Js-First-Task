@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>karim sayed</title>
+</head>
+<body>
+    <main class="container-fluid my-5 d-flex">
+        <div id="bill" class="bill col-4 rounded mr-5">
+            <div class="header d-flex jusified-content-between  my-3">
+                <div class="icons d-flex mr-5 col-6 ">
+                    <div class="mx-3" style="color: #007BFF; font-size:x-large"><i class="fas fa-times-circle"></i></div>
+                    <div class="mx-3" style="color: #007BFF; font-size:x-large"><i class="fas fa-plus-circle"></i></div>
+                    <div class="mx-3" style="color: #007BFF; font-size:x-large"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="takeaway-drp col-4 ml-5">
+                    <div class="dropdown dropright">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                          Take away
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Take away</a><hr>
+                          <a class="dropdown-item" href="#">Delivery</a><hr>
+                          <a class="dropdown-item" href="#">Dinning</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div id="tablet" class=" tablet container-fluid">            
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                          <th>Price</th>
+                        </tr>
+                      </thead>
+                    </table>
+                    <div class="mt-5 align-items-end">
+                        <div id="content"></div>
+                        <hr>
+                        <button id="calc" type="button" class="btn btn-primary btn-block">Calculate</button>
+                        <div class="footer d-flex mt-4">
+                            <h3 id="price1" class="mr-5 col-4"></h3>
+                            <h2 class="ml-5 col-8">Tottal price</h2>
+                        </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+        <div id="allproducts" class="allproducts col-7 rounded flex-column">
+            <div class="arrang d-flex">
+                <div class="card my-5 mx-4" price="50$">
+                    <img src="images/Rectangle 595.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">chicken</h5>
+                        <h6 class="p4">50$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="100$">
+                    <img src="images/Rectangle 595-1.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">G chicken</h5>
+                        <h6 class="p4">100$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="150$">
+                    <img src="images/Rectangle 595-2.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">sausage</h5>
+                        <h6 class="p4">150$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="200$">
+                    <img src="images/Rectangle 595-3.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">G meat</h5>
+                        <h6 class="p4">200$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="250$">
+                    <img src="images/Rectangle 595-4.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3"> Passta Mix</h5>
+                        <h6 class="p4">250$</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="arrang d-flex">
+                <div class="card my-5 mx-4" price="300$">
+                    <img src="images/Rectangle 595-4.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">Italy Passta</h5>
+                        <h6 class="p4">300$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="350$">
+                    <img src="images/Rectangle 595-3.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">mix meat</h5>
+                        <h6 class="p4">350$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="400$">
+                    <img src="images/Rectangle 595-2.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">Mixsausage</h5>
+                        <h6 class="p4">400$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="450$">
+                    <img src="images/Rectangle 595-1.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">Mixchicken</h5>
+                        <h6 class="p4">450$</h6>
+                    </div>
+                </div>
+                <div class="card my-5 mx-4" price="10$">
+                    <img src="images/Rectangle 595.png" alt="items" width="114px ">
+                    <div class="text-center mt-3">
+                        <h5 class="p3">potatos</h5>
+                        <h6 class="p4">10$</h6>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+
+
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
